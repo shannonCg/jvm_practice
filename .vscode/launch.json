@@ -7,7 +7,7 @@
             "request": "launch",
             "mainClass": "${file}",
             "args": "aaa,bbb",
-            "vmArgs": "-Xms2m -Xmx2m -XX:+HeapDumpOnOutOfMemoryError",
+            "vmArgs": "-Xss160k -XX:+HeapDumpOnOutOfMemoryError",
             "projectName": "jvm_practice"
         }
     ]
