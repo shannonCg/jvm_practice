@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "aaa,bbb",
+            "vmArgs": "-Xms2m -Xmx2m -XX:+HeapDumpOnOutOfMemoryError",
+            "projectName": "jvm_practice"
+        }
+    ]
+}
