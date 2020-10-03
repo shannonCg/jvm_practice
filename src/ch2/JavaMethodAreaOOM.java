@@ -8,7 +8,7 @@ import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
 /**
- * VM Args: -XX:MetaspaceSize=10m -XX:MaxMetaspaceSize=10m
+ * VM Args: -XX:MetaspaceSize=10m -XX:MaxMetaspaceSize=10m -XX:+HeapDumpOnOutOfMemoryError
  */
 public class JavaMethodAreaOOM {
     public static void main(String[] args) {

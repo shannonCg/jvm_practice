@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**VM Args: 
  * (java6) -XX:PermSize=6m -XX:MaxPerSize=6m
- * (java7 and later version) -Xms6m -Xmx6m -XX:HeapDumpOnOutOfMemoryError
+ * (java7 and later version) -Xms6m -Xmx6m -XX:+HeapDumpOnOutOfMemoryError
  */
 public class RuntimeConstantPoolOOM {
     public static void main(String[] args) {
