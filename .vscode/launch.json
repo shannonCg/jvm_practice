@@ -7,7 +7,7 @@
             "request": "launch",
             "mainClass": "${file}",
             "args": "aaa,bbb",
-            "vmArgs": "-XX:MetaspaceSize=10m -XX:MaxMetaspaceSize=10m -XX:+HeapDumpOnOutOfMemoryError",
+            "vmArgs": "-Xms24m -Xmx24m -Xmn10m -verbose:gc -XX:+PrintGCDetails",
             "projectName": "jvm_practice"
         }
     ]
