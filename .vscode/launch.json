@@ -3,11 +3,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test.test",
+            "projectName": "jvm_practice"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
             "args": "aaa,bbb",
-            "vmArgs": "-Xms24m -Xmx24m -Xmn10m -verbose:gc -XX:+PrintGCDetails",
+            "vmArgs": "-Xms100m -Xmx100m",
             "projectName": "jvm_practice"
         }
     ]

@@ -17,6 +17,8 @@ public class EdenAllocationTest {
                                         //而觸發FullGC的條件是老年代的連續空間小於新生代對象總大小，
                                         //反之則只會觸發MinorGC(把VM參數調成-Xms25m -Xmx25m就不會觸發FullGC)
         // allocation4 = new byte[4*_1MB]; //在parallel scavenge會直接把4MB以上的大物件存進老年代
+
+        // byte[] allocation5 = new byte[8*_1MB]; //cause out of memory
     }
 
     public static void main(String[] args) {
