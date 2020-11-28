@@ -3,9 +3,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - test",
+            "name": "CodeLens (Launch) - TestClass",
             "request": "launch",
-            "mainClass": "test.test",
+            "mainClass": "ch5.TestClass",
+            "projectName": "jvm_practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "ch5.Test",
             "projectName": "jvm_practice"
         },
         {
@@ -14,7 +21,7 @@
             "request": "launch",
             "mainClass": "${file}",
             "args": "aaa,bbb",
-            "vmArgs": "-Xms100m -Xmx100m",
+            "vmArgs": "-Xms100m -Xmx100m -XX:+TraceClassLoading",
             "projectName": "jvm_practice"
         }
     ]
