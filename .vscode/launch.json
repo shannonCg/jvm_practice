@@ -3,20 +3,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - TestClass",
-            "request": "launch",
-            "mainClass": "ch5.TestClass",
-            "projectName": "jvm_practice"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Test",
-            "request": "launch",
-            "mainClass": "ch5.Test",
-            "projectName": "jvm_practice"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
